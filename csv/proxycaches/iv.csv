@@ -1,0 +1,5 @@
+;Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
+PUT;ok;fail;fail;ok;fail;ok
+DELETE;ok;fail;fail;ok;fail;ok
+POST;ok;fail;fail;ok;fail;ok
+PATCH;fail;fail;fail;fail;fail;ok

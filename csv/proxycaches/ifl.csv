@@ -1,0 +1,4 @@
+;Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
+Date;fail;fail;ok hard implicit caching;fail;fail;fail
+Last-Modified;ok without query;fail;ok hard implicit caching;fail;ok;fail
+Cache-Control: public;ok without query and status code != 200;fail;ok hard implicit caching;fail;fail;fail

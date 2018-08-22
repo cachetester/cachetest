@@ -1,0 +1,5 @@
+;Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
+ETag with max-age;ok;(ok) no updated header when validation is successful;fail hard implicit caching;ok;(ok) returns 304 Not Modified when validation is successful;ok
+ETag with Expires;ok;(ok) no updated header when validation is successful;fail hard implicit caching;ok;x does not support Expires;ok
+Last-Modified with max-age;ok;(ok) no updated header when validation is successful;fail hard implicit caching;ok;(ok) no updated header when validation is successful;ok
+Last-Modified with Expires;ok;(ok) no updated header when validation is successful;fail hard implicit caching;ok;x does not support Expires;ok

@@ -1,0 +1,6 @@
+;RFC caching policy;Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
+without Expires, s-maxage and max-age;not cacheable;ok;ok;ok;ok;ok;ok
+max-age;cacheable;fail;ok;fail;fail;fail;ok
+s-maxage;cacheable;fail;ok;fail;fail;fail;ok
+s-maxage, max-age;cacheable;fail;ok;fail;fail;fail;ok
+Expires;cacheable;fail;ok;fail;fail;fail;fail

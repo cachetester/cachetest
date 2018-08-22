@@ -1,0 +1,2 @@
+Delivering stale responses
+The RFC 7234 allows to a cache to return stale responses for certain cases if the origin server is not available or send an error code. When a stale response is return, a cache must append a <code>Warning</code> header field informing the client about the expired response. This Table evaluate if caches satisfy recurring requests when the origin server is not available or returns an error message. The symbol [ok] that a stale response is reused and [fail] illustrates that a stale response is not returned.

@@ -1,0 +1,4 @@
+;Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
+Date;fail;fail;fail;fail;fail;fail
+ETag;fail;fail;fail;fail;(ok) returns 304 Not Modified when validation is successful;fail
+Last-Modified;fail;fail;fail;fail;(ok) no updated header when validation is successful;ok

@@ -1,0 +1,4 @@
+;Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
+Set-Cookie with max-age;ok red does not remove Set-Cookie header when resusing stored response;fail;fail;ok removes Set-Cookie header when resusing stored response;ok removes Set-Cookie header when resusing stored response;ok removes Set-Cookie header when resusing stored response
+Set-Cookie with s-maxage;ok red does not remove Set-Cookie header when resusing stored response;fail;fail;ok removes Set-Cookie header when resusing stored response;ok removes Set-Cookie header when resusing stored response;ok removes Set-Cookie header when resusing stored response
+Set-Cookie with Expires;ok red does not remove Set-Cookie header when resusing stored response;fail;fail;ok removes Set-Cookie header when resusing stored response;ok removes Set-Cookie header when resusing stored response;ok removes Set-Cookie header when resusing stored response

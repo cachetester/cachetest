@@ -1,0 +1,4 @@
+;Apache HTTPD
+Web Cache Decpection;fail
+HTTP Request Smuggeling;ok
+HTTP Response Splitting;ok

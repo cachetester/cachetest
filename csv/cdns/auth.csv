@@ -1,0 +1,6 @@
+;RFC caching policy;Amazon
+without Expires, s-maxage and max-age;not cacheable;fail removes Authorization header from request
+max-age;cacheable;fail removes Authorization header from request
+s-maxage;cacheable;fail removes Authorization header from request
+s-maxage, max-age;cacheable;fail removes Authorization header from request
+Expires;cacheable;fail removes Authorization header from request

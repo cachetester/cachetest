@@ -1,0 +1,7 @@
+;Apache HTTPD
+max-age;fail
+max-stale;fail
+no-store;fail
+min-fresh;fail
+only-if-cached;ok
+no-cache;fail

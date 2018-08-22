@@ -1,0 +1,5 @@
+;Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
+ETag with no-cache;fail;fail;fail;fail;(ok) returns 304 Not Modified when validation is successful;fail
+Last-Modified with no-cache;fail;fail;fail;fail;ok;(ok) may result from implicit validation
+Date with no-cache;fail;fail;fail;fail;fail;fail
+no-cache without validation tokens;fail;fail;fail;fail;fail;fail

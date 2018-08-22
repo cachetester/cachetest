@@ -1,0 +1,8 @@
+;RFC priority;Amazon
+max-age;max-age;ok
+s-maxage;s-maxage;ok
+s-maxage, max-age;s-maxage;ok
+Expires;Expires;ok
+Expires, max-age;max-age;ok
+Expires, s-maxage;s-maxage;ok
+Expires, s-maxage, max-age;s-maxage;ok

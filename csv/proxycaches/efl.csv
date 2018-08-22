@@ -1,0 +1,8 @@
+;RFC priority;Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
+max-age;max-age;ok;ok;fail;ok;ok;ok stores only responses with a freshness lifetime over 60 seconds
+s-maxage;s-maxage;ok;ok;fail;ok;ok;ok stores only responses with a freshness lifetime over 60 seconds
+s-maxage, max-age;s-maxage;ok;ok;fail;ok;ok;ok stores only responses with a freshness lifetime over 60 seconds
+Expires;Expires;ok;ok;fail;ok;fail;ok stores only responses with a freshness lifetime over 60 seconds
+Expires, max-age;max-age;ok;ok;fail;ok;x;ok stores only responses with a freshness lifetime over 60 seconds
+Expires, s-maxage;s-maxage;ok;ok;fail;ok;x;ok stores only responses with a freshness lifetime over 60 seconds
+Expires, s-maxage, max-age;s-maxage;ok;ok;fail;ok;x;ok stores only responses with a freshness lifetime over 60 seconds

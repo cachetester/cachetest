@@ -1,0 +1,3 @@
+;Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
+Server unavailability;ok;(ok) no warning header when reusing stale response ;fail returns error code 502 Bad Gateway;ok;fail error code returns 504 Gateway Time-out;fail returns error code 504 Gateway timeout
+Server failure;ok;(ok) no warning header when reusing stale response ;fail returns error code of server;fail returns error code of server;fail error code of server;fail returns error code of server

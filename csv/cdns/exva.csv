@@ -1,0 +1,5 @@
+;Amazon
+ETag with no-cache;(ok) no updated header when validation is successful
+Last-Modified with no-cache;(ok) no updated header when validation is successful
+Date with no-cache;(ok) no updated header when validation is successful
+no-cache without validation tokens;fail

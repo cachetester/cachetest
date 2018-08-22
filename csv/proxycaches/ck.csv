@@ -1,0 +1,2 @@
+Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
+fail;ok;ok;ok;ok;ok

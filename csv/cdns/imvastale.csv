@@ -1,0 +1,5 @@
+;Apache
+ETag with max-age;(ok) no updated header when validation is successful
+ETag with Expires;(ok) no updated header when validation is successful
+Last-Modified with max-age;(ok) no updated header when validation is successful
+Last-Modified with Expires;(ok) no updated header when validation is successful

@@ -1,0 +1,4 @@
+;Amazon
+Set-Cookie with max-age;ok removes Set-Cookie header when reusing stored response
+Set-Cookie with s-maxage;ok removes Set-Cookie header when reusing stored response
+Set-Cookie with Expires;ok removes Set-Cookie header when reusing stored response

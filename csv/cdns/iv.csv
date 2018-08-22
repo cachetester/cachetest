@@ -1,0 +1,5 @@
+;Amazon
+PUT;fail
+DELETE;fail
+POST;fail
+PATCH;fail

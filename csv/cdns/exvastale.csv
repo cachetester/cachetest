@@ -1,0 +1,13 @@
+;Apache HTTPD
+must-revalidate with ETag;fail reuse stale response when server is unavailable or returns error code
+proxy-revalidate with ETag;fail reuse stale response when server is unavailable or returns error code
+s-maxage with ETag;fail reuse stale response when server is unavailable or returns error code
+must-revalidate with Last-Modified;fail reuse stale response when server is unavailable or returns error code
+proxy-revalidate with Last-Modified;fail reuse stale response when server is unavailable or returns error code
+s-maxage with Last-Modified;fail reuse stale response when server is unavailable or returns error code
+must-revalidate with Date;fail no conditional request when response is expired 
+proxy-revalidate with Date;fail no conditional request when response is expired 
+s-maxage with Date;fail no conditional request when response is expired 
+must-revalidate without validation tokens;fail no conditional request when response is expired 
+proxy-revalidate with without validation tokens;fail no conditional request when response is expired 
+s-maxage with Date without validation tokens;fail no conditional request when response is expired 
