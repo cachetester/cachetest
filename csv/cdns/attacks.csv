@@ -1,4 +1,3 @@
-;Apache HTTPD
-Web Cache Decpection;fail
-HTTP Request Smuggeling;ok
-HTTP Response Splitting;ok
+;Amazon
+Prefer explicit freshness lifetime;fail potentially vulnerable to web deception attack
+Prohibiting two Content-Length header;ok
