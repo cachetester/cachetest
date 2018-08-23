@@ -1,4 +1,3 @@
 ;Apache HTTPD;Nginx;Varnish;Apache TS;Wingate;Squid
-Web Cache Decpection;ok;ok;ok;fail;ok;ok
-HTTP Request Smuggeling;ok;ok;ok;ok;ok;ok
-HTTP Response Splitting;ok;ok;ok;ok;ok;ok
+Prefer explicit freshness lifetime;ok;ok;ok;fail;ok;ok
+Prohibiting two Content-Length header;ok;ok;ok;fail;ok;ok
