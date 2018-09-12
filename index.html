@@ -216,7 +216,7 @@
         var html = `<section id="${topics[i]}" class="resultsTable"><h2 class='headline'></h2><p class="description"></p><div class="tableDiv"></div></section><hr/>`
         $("#main").append(html);
         getSnippets(topics[i]);
-        if(topics[i] == "partial"){
+        if(topics[i] == "partial" || topics[i] == "cachekey"){
           getCSV(topics[i],false);
         } else {
           getCSV(topics[i],true);

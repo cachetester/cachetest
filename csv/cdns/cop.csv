@@ -1,4 +1,4 @@
-;Apache HTTPD
+;Amazon
 max-age;fail
 max-stale;fail
 no-store;fail

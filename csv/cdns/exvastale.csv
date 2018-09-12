@@ -1,4 +1,4 @@
-;Apache HTTPD
+;Amazon
 must-revalidate with ETag;fail reuse stale response when server is unavailable or returns error code
 proxy-revalidate with ETag;fail reuse stale response when server is unavailable or returns error code
 s-maxage with ETag;fail reuse stale response when server is unavailable or returns error code
