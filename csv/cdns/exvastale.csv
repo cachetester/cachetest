@@ -9,5 +9,5 @@ must-revalidate with Date;fail no conditional request when response is expired
 proxy-revalidate with Date;fail no conditional request when response is expired 
 s-maxage with Date;fail no conditional request when response is expired 
 must-revalidate without validation tokens;fail no conditional request when response is expired 
-proxy-revalidate with without validation tokens;fail no conditional request when response is expired 
+proxy-revalidate without validation tokens;fail no conditional request when response is expired 
 s-maxage with Date without validation tokens;fail no conditional request when response is expired 

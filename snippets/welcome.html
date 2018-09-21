@@ -5,11 +5,11 @@ Welcome
 
 <p class="lead justify">
   Caching has been established as a vital mechanism for providing high scalability in modern distributed software systems. In the web, the storage and reuse of frequently asked responses represent the formula of success ever since. Therefore, the IETF has published a web caching standard, the <a href="https://tools.ietf.org/html/rfc7234" target="_blank">RFC 7234</a>, providing policies and control directives for all kinds of web caching systems. 
-  The Figure below depicts the landscape of web caching systems. You can see that web caching systems can occur in various location on the path between client and server. 
+  The Figure below depicts the different types of web caching systems classified by location and resource access policy. You can see that web caching systems can occur in various location on the path between client and server. 
 </p>
 <br>
-<img src="images/webcachinglandscape.png" id="webcachinglandscape" width="60%" alt="Web Caching Landscape" class="img-thumbnail">
+<img src="images/webcachingsystems.png" id="webcachinglandscape" width="60%" alt="Web Caching Landscape" class="img-thumbnail">
 <br>
 <p class="lead justify">
-  This website provides you further information on a large-scale explorative study of web caching. This study aims to analyze the current state of web caching. Therefore we conduct an in-depth review on current publications on web caching such as the <a href="https://tools.ietf.org/html/rfc7234" target="_blank">RFC 7234</a> and other related work. In this investigation, we found out that the proper implementation of caching is not a trivial task. A lot of publications show that malfunctioning caches, which may result from misconfiguration, non-compliance with the web caching standard or vulnerabilities in caches as well as web applications, can lead to server consequences for content providers as well as content consumers. Because of this, we developed cache test systems which is able to evaluate almost all kinds of web caching systems. The goal of our tool is to evaluate if a cache complies with the caching policies defined the RFC 7234 and also application-specific policies. With this tool we analyzed various web caching systems on different locations. We evaluated <a href="?cache=proxycaches">proxy caches</a> and the <a href="?cache=cdns">Amazon Cloud Front CDN</a>. 
+  This website provides further information on the large-scale explorative study of web caching. This study aims to analyze the current state of web caching where we have analyzed 6 <a href="?cache=proxycaches">proxy caches</a> and the <a href="?cache=cdns">Amazon Cloud Front CDN</a> with our cache testing tool and cache test suite. 
 </p>
